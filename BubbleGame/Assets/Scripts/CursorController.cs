@@ -1,4 +1,6 @@
 using UnityEngine;
+using static UnityEngine.ParticleSystem;
+using UnityEngine.Rendering;
 
 public class CursorController : MonoBehaviour
 {
