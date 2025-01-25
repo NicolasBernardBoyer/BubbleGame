@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - evo1
+  - evo2
+  - evo3
+  - evo4
+  - evo5
+  - evo6
+  - evo7
+  - evo8
+  - evo9
+  - evo10
   layers:
   - Default
   - TransparentFX
