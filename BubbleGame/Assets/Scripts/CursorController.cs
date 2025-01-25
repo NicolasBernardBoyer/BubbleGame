@@ -4,8 +4,8 @@ using UnityEngine.Rendering;
 
 public class CursorController : MonoBehaviour
 {
-    public float speed = 0.1f;
-    public Camera cam;
+    public GameObject pearl;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,5 +21,10 @@ public class CursorController : MonoBehaviour
         Vector3 camPos = Camera.main.ScreenToWorldPoint(mousePos);
         camPos.x = Mathf.Clamp(camPos.x, -2.5f, 2.5f);
         transform.position = new Vector3(camPos.x, transform.position.y, camPos.z);
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(pearl, new Vector3(transform.position.x + Random.Range(-0.01f,0.01f), transform.position.y, transform.position.z), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
+        }
     }
 }
