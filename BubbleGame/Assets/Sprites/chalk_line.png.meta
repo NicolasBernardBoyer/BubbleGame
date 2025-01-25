@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: ccdd4cce1663446459bd7afff1eeb862
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8896653436011959630
+    second: chalk_line_0
+  - first:
+      213: -4420361066599141457
+    second: chalk_line_1
+  - first:
+      213: -4396254622566230303
+    second: chalk_line_2
+  - first:
+      213: -5519813818508709176
+    second: chalk_line_3
+  - first:
+      213: 3748792783540323567
+    second: chalk_line_4
+  - first:
+      213: 2439007621698375007
+    second: chalk_line_5
+  - first:
+      213: 7457126731809858673
+    second: chalk_line_6
+  - first:
+      213: -5820171017923002392
+    second: chalk_line_7
+  - first:
+      213: 4498999856668657090
+    second: chalk_line_8
+  - first:
+      213: -5122022236537988566
+    second: chalk_line_9
+  - first:
+      213: 6207226316254424755
+    second: chalk_line_10
+  - first:
+      213: 3644226536963588073
+    second: chalk_line_11
+  - first:
+      213: 5102951662941731550
+    second: chalk_line_12
+  - first:
+      213: 5975521728275717919
+    second: chalk_line_13
+  - first:
+      213: -7250717734570807861
+    second: chalk_line_14
+  - first:
+      213: 581515682760811461
+    second: chalk_line_15
+  - first:
+      213: 4216404507389835073
+    second: chalk_line_16
+  - first:
+      213: -5302170832244765861
+    second: chalk_line_17
+  - first:
+      213: 4910182811318106944
+    second: chalk_line_18
+  - first:
+      213: 635912771995823489
+    second: chalk_line_19
+  - first:
+      213: -5445321352058861597
+    second: chalk_line_20
+  - first:
+      213: 1184435183314623327
+    second: chalk_line_21
+  - first:
+      213: -5312301037872138691
+    second: chalk_line_22
+  - first:
+      213: -7949294816427315933
+    second: chalk_line_23
+  - first:
+      213: 7579460062575438407
+    second: chalk_line_24
+  - first:
+      213: -7225613730196433618
+    second: chalk_line_25
+  - first:
+      213: 5717464455951041911
+    second: chalk_line_26
+  - first:
+      213: -3805997096313787723
+    second: chalk_line_27
+  - first:
+      213: -6410005907300543557
+    second: chalk_line_28
+  - first:
+      213: 8163526334155997620
+    second: chalk_line_29
+  - first:
+      213: 3723009672885913516
+    second: chalk_line_30
+  - first:
+      213: -5955071041420759456
+    second: chalk_line_31
+  - first:
+      213: 6111132195093794845
+    second: chalk_line_32
+  - first:
+      213: 1242969517883944687
+    second: chalk_line_33
+  - first:
+      213: 8069787047186364107
+    second: chalk_line_34
+  - first:
+      213: -2050626347996444555
+    second: chalk_line_35
+  - first:
+      213: -3791776513758654150
+    second: chalk_line_36
+  - first:
+      213: 5793621635953572703
+    second: chalk_line_37
+  - first:
+      213: 4215573999485053416
+    second: chalk_line_38
+  - first:
+      213: -5630147134063133230
+    second: chalk_line_39
+  - first:
+      213: 1076460189355251207
+    second: chalk_line_40
+  - first:
+      213: 6626850804883337851
+    second: chalk_line_41
+  - first:
+      213: 2648468438551677749
+    second: chalk_line_42
+  - first:
+      213: 7332880783483025182
+    second: chalk_line_43
+  - first:
+      213: 174601561108273302
+    second: chalk_line_44
+  - first:
+      213: 4917195031574980559
+    second: chalk_line_45
+  - first:
+      213: -9098720367841150721
+    second: chalk_line_46
+  - first:
+      213: 2915797215087603226
+    second: chalk_line_47
+  - first:
+      213: 4940056357059812236
+    second: chalk_line_48
+  - first:
+      213: 6627651285278754897
+    second: chalk_line_49
+  - first:
+      213: -2152418535815455512
+    second: chalk_line_50
+  - first:
+      213: 1811759801582621565
+    second: chalk_line_51
+  - first:
+      213: -7162800233933151783
+    second: chalk_line_52
+  - first:
+      213: -5613495481048843099
+    second: chalk_line_53
+  - first:
+      213: -257282804788845372
+    second: chalk_line_54
+  - first:
+      213: -170049858293534642
+    second: chalk_line_55
+  - first:
+      213: 5634574051746040676
+    second: chalk_line_56
+  - first:
+      213: 5937251685818845210
+    second: chalk_line_57
+  - first:
+      213: -3381961311219577193
+    second: chalk_line_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chalk_line_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1159
+        width: 350
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45504fd923477b70800000000000000
+      internalID: 8896653436011959630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1148
+        width: 332
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf246ea709b7a2c0800000000000000
+      internalID: -4420361066599141457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1142
+        width: 343
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e655cf86bd5df2c0800000000000000
+      internalID: -4396254622566230303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1104
+        width: 344
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2fe79c39ea563b0800000000000000
+      internalID: -5519813818508709176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_4
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1112
+        width: 313
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe40877bc23660430800000000000000
+      internalID: 3748792783540323567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1079
+        width: 314
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d4dcf628819d120800000000000000
+      internalID: 2439007621698375007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1058
+        width: 347
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174a896c0490d7760800000000000000
+      internalID: 7457126731809858673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1026
+        width: 341
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8effca8bb499a3fa0800000000000000
+      internalID: -5820171017923002392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1041
+        width: 323
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5c44d6888af6e30800000000000000
+      internalID: 4498999856668657090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 998
+        width: 332
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a508bd9ebeae8b0800000000000000
+      internalID: -5122022236537988566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 993
+        width: 326
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 26, y: 0, z: 29, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be2dc4827f742650800000000000000
+      internalID: 6207226316254424755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 965
+        width: 324
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef34c83ab4e29230800000000000000
+      internalID: 3644226536963588073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_12
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 942
+        width: 310
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda71a7308351d640800000000000000
+      internalID: 5102951662941731550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 933
+        width: 340
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f90892a515de250800000000000000
+      internalID: 5975521728275717919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 897
+        width: 356
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd2848e2a6406b90800000000000000
+      internalID: -7250717734570807861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_15
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 887
+        width: 331
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3e646be65f11800800000000000000
+      internalID: 581515682760811461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 863
+        width: 341
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147b35c5f8da38a30800000000000000
+      internalID: 4216404507389835073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_17
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 850
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b0d9d58b7ea66b0800000000000000
+      internalID: -5302170832244765861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_18
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 857
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b38da6049742440800000000000000
+      internalID: 4910182811318106944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_19
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 856
+        width: 67
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18de1f20c4733d800800000000000000
+      internalID: 635912771995823489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 836
+        width: 229
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e78ea2b4155e64b0800000000000000
+      internalID: -5445321352058861597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 837
+        width: 104
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b51f81685ff6010800000000000000
+      internalID: 1184435183314623327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 838
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3631b11a5ae646b0800000000000000
+      internalID: -5312301037872138691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_23
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 846
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32deefb4b7e6ea190800000000000000
+      internalID: -7949294816427315933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 824
+        width: 338
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74aa11be4c6af2960800000000000000
+      internalID: 7579460062575438407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 787
+        width: 303
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25d477689679bb90800000000000000
+      internalID: -7225613730196433618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_26
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 786
+        width: 297
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77542e851a3885f40800000000000000
+      internalID: 5717464455951041911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 725
+        width: 331
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba6c025ec16e2bc0800000000000000
+      internalID: -3805997096313787723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 744
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb31237c6951b07a0800000000000000
+      internalID: -6410005907300543557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_29
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 747
+        width: 304
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b14aedd2fbaa4170800000000000000
+      internalID: 8163526334155997620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 697
+        width: 327
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca745b77299caa330800000000000000
+      internalID: 3723009672885913516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_31
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 711
+        width: 300
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e66eb60765b5da0800000000000000
+      internalID: -5955071041420759456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_32
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 652
+        width: 308
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10d4007a5a1fc450800000000000000
+      internalID: 6111132195093794845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_33
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 666
+        width: 321
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee6c14e03aef3110800000000000000
+      internalID: 1242969517883944687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 609
+        width: 319
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc677985094adff60800000000000000
+      internalID: 8069787047186364107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_35
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 626
+        width: 306
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5788d908336ba83e0800000000000000
+      internalID: -2050626347996444555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_36
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 589
+        width: 301
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a311fb5b957e06bc0800000000000000
+      internalID: -3791776513758654150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 571
+        width: 336
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bb7069e24176050800000000000000
+      internalID: 5793621635953572703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_38
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 545
+        width: 299
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9edaba73ab08a30800000000000000
+      internalID: 4215573999485053416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_39
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 528
+        width: 310
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddbbf8e203bdd1b0800000000000000
+      internalID: -5630147134063133230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_40
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 513
+        width: 289
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7069e51c6da50fe00800000000000000
+      internalID: 1076460189355251207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_41
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 482
+        width: 305
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72359c42bd47fb50800000000000000
+      internalID: 6626850804883337851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_42
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 463
+        width: 284
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bc4be330041c420800000000000000
+      internalID: 2648468438551677749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_43
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 434
+        width: 312
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e173bc7a830a3c560800000000000000
+      internalID: 7332880783483025182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_44
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 420
+        width: 282
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698561bd13f4c6200800000000000000
+      internalID: 174601561108273302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_45
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 392
+        width: 318
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7a75c24d26d3440800000000000000
+      internalID: 4917195031574980559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_46
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 379
+        width: 277
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff87734580adab180800000000000000
+      internalID: -9098720367841150721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_47
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 358
+        width: 326
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1eae5a5e1ef67820800000000000000
+      internalID: 2915797215087603226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_48
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 344
+        width: 288
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bd5fc451b9e8440800000000000000
+      internalID: 4940056357059812236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_49
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 325
+        width: 331
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158833aaab52afb50800000000000000
+      internalID: 6627651285278754897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_50
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 304
+        width: 281
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecd0c4eeb21122e0800000000000000
+      internalID: -2152418535815455512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_51
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 296
+        width: 256
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d731aafb0f9a42910800000000000000
+      internalID: 1811759801582621565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 298
+        width: 75
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1645b232f989c90800000000000000
+      internalID: -7162800233933151783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_53
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 267
+        width: 306
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acb2dff99bd812b0800000000000000
+      internalID: -5613495481048843099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_54
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 257
+        width: 285
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4aeb5f6a2fd6cf0800000000000000
+      internalID: -257282804788845372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_55
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 236
+        width: 333
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40fe4a0e8cd3adf0800000000000000
+      internalID: -170049858293534642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_56
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 244
+        width: 249
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bc4fe2f37023e40800000000000000
+      internalID: 5634574051746040676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 194
+        width: 331
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18425b83fa556250800000000000000
+      internalID: 5937251685818845210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chalk_line_58
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 205
+        width: 285
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e84a81b1cd011d0800000000000000
+      internalID: -3381961311219577193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 788f191b8be028e4d8ac874d681184b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chalk_line_0: 8896653436011959630
+      chalk_line_1: -4420361066599141457
+      chalk_line_10: 6207226316254424755
+      chalk_line_11: 3644226536963588073
+      chalk_line_12: 5102951662941731550
+      chalk_line_13: 5975521728275717919
+      chalk_line_14: -7250717734570807861
+      chalk_line_15: 581515682760811461
+      chalk_line_16: 4216404507389835073
+      chalk_line_17: -5302170832244765861
+      chalk_line_18: 4910182811318106944
+      chalk_line_19: 635912771995823489
+      chalk_line_2: -4396254622566230303
+      chalk_line_20: -5445321352058861597
+      chalk_line_21: 1184435183314623327
+      chalk_line_22: -5312301037872138691
+      chalk_line_23: -7949294816427315933
+      chalk_line_24: 7579460062575438407
+      chalk_line_25: -7225613730196433618
+      chalk_line_26: 5717464455951041911
+      chalk_line_27: -3805997096313787723
+      chalk_line_28: -6410005907300543557
+      chalk_line_29: 8163526334155997620
+      chalk_line_3: -5519813818508709176
+      chalk_line_30: 3723009672885913516
+      chalk_line_31: -5955071041420759456
+      chalk_line_32: 6111132195093794845
+      chalk_line_33: 1242969517883944687
+      chalk_line_34: 8069787047186364107
+      chalk_line_35: -2050626347996444555
+      chalk_line_36: -3791776513758654150
+      chalk_line_37: 5793621635953572703
+      chalk_line_38: 4215573999485053416
+      chalk_line_39: -5630147134063133230
+      chalk_line_4: 3748792783540323567
+      chalk_line_40: 1076460189355251207
+      chalk_line_41: 6626850804883337851
+      chalk_line_42: 2648468438551677749
+      chalk_line_43: 7332880783483025182
+      chalk_line_44: 174601561108273302
+      chalk_line_45: 4917195031574980559
+      chalk_line_46: -9098720367841150721
+      chalk_line_47: 2915797215087603226
+      chalk_line_48: 4940056357059812236
+      chalk_line_49: 6627651285278754897
+      chalk_line_5: 2439007621698375007
+      chalk_line_50: -2152418535815455512
+      chalk_line_51: 1811759801582621565
+      chalk_line_52: -7162800233933151783
+      chalk_line_53: -5613495481048843099
+      chalk_line_54: -257282804788845372
+      chalk_line_55: -170049858293534642
+      chalk_line_56: 5634574051746040676
+      chalk_line_57: 5937251685818845210
+      chalk_line_58: -3381961311219577193
+      chalk_line_6: 7457126731809858673
+      chalk_line_7: -5820171017923002392
+      chalk_line_8: 4498999856668657090
+      chalk_line_9: -5122022236537988566
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
