@@ -954,7 +954,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aab33ea45f1e4042b15fb22f59b0278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pearl: {fileID: 7472114941412812946, guid: f95b7c1b6b9e99d4ba452f640779de66, type: 3}
+  pearl1: {fileID: 7472114941412812946, guid: f95b7c1b6b9e99d4ba452f640779de66, type: 3}
+  pearl2: {fileID: 7489633126282964813, guid: 0363e4d6d1aaa014ab6facac370569ac, type: 3}
+  pearl3: {fileID: 7489633126282964813, guid: 9aaa2577e05947843bd78968510337a8, type: 3}
+  pearl4: {fileID: 7489633126282964813, guid: 6a1f27d18fca7e844b3e3cc3b5596912, type: 3}
+  holdingPearl: 0
   placeDelay: 0
 --- !u!212 &1442066707
 SpriteRenderer:
