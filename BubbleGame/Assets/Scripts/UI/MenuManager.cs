@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    [SerializeField]
+    Animator water;
+
+    [SerializeField]
+    Animator wavemovement;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,9 +22,10 @@ public class MenuManager : MonoBehaviour
         FindFirstObjectByType<AudioManager>().UpdateVolume(a.value);
     }
 
-    public void PlaySFX()
+    public void PlayButton()
     {
         FindFirstObjectByType<AudioManager>().Play("Water");
+        water.SetTrigger("");
     }
 
     public void QuitGame()
