@@ -36,6 +36,9 @@ public class Pearl : MonoBehaviour
             {
                 FindFirstObjectByType<GameManager>().pearlsColliding += 1;
                 FindFirstObjectByType<GameManager>().CreatePearl(next, (transform.position + collision.transform.position)/2);
+            } else
+            {
+                FindFirstObjectByType<GameManager>().Bomba();
             }
             isColliding = true;
             Destroy(gameObject);

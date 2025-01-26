@@ -6,9 +6,11 @@ public class GameManager : MonoBehaviour
     public int pearlsColliding;
     public GameObject cursor;
     public GameObject iceCube;
-    public Canvas UI;
+    public GameObject loseScreen;
     public float iceDelay = 45.0f;
     public int totalScore = 0;
+
+    public bool lose = false;
 
     [SerializeField] TMP_Text scoreText;
     [SerializeField] TMP_Text timerText;
@@ -16,14 +18,21 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        lose = false;
+        loseScreen.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         //check for ice timer, create the ice if it is up
-        IceTimer();
+        if (!lose)
+        {
+            IceTimer();
+        } else
+        {
+            loseScreen.SetActive(true);
+        }
         if (iceDelay <= 0)
         {
             createIce();
@@ -60,5 +69,9 @@ public class GameManager : MonoBehaviour
         {
             iceDelay -= Time.deltaTime;
         }
+    }
+    public void Bomba()
+    {
+
     }
 }
