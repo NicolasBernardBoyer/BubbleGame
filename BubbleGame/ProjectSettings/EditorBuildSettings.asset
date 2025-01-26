@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/NickScene.unity
-    guid: b295373aacb31354aa96f2f7017ec66d
-  - enabled: 1
-    path: Assets/Scenes/NickScene 1.unity
-    guid: 11d96fbfbee70fe41aebe3a48f847448
-  - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: 2fbed5c28cb06d64a825d27004b5d4d4
+  - enabled: 1
+    path: Assets/Scenes/NickScene.unity
+    guid: b295373aacb31354aa96f2f7017ec66d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
