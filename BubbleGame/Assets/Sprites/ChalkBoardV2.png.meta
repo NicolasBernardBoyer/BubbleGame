@@ -206,7 +206,13 @@ TextureImporter:
       entries: []
     nameFileIdTable:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ChalkBoardV2_0: -6762945979584794168
+=======
+      ChalkBoardV2_0: -2073824608
+      ChalkBoardV2_1: 1040628824
+      ChalkBoardV2_2: 1736058916
+>>>>>>> Stashed changes
 =======
       ChalkBoardV2_0: -2073824608
       ChalkBoardV2_1: 1040628824
