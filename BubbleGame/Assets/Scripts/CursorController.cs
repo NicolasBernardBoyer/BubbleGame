@@ -1,6 +1,7 @@
 using UnityEngine;
 using static UnityEngine.ParticleSystem;
 using UnityEngine.Rendering;
+using System.ComponentModel.Design.Serialization;
 
 public class CursorController : MonoBehaviour
 {
@@ -41,7 +42,12 @@ public class CursorController : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && placeDelay <= 0)
         {
             currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            FindFirstObjectByType<GameManager>().moveCount += 1;
+            //increase move count only if ice is present on the board
+            IceCube[] iceCubes = FindObjectsByType<IceCube>(FindObjectsSortMode.None);
+            foreach (IceCube cube in iceCubes)
+            {
+                cube.movesLeft--;
+            }
             holdingPearl = false;
             placeDelay = 1.0f;
         }

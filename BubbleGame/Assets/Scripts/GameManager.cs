@@ -5,7 +5,6 @@ public class GameManager : MonoBehaviour
     public int pearlsColliding;
     public GameObject cursor;
     public GameObject iceCube;
-    public int moveCount = 0;
     public float iceDelay = 30.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -42,7 +41,7 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < 10; i++)
         {
             Instantiate(iceCube, new Vector3(Random.Range(-2.9f, 3.0f),
-            cursor.transform.position.y-5, cursor.transform.position.z), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
+            cursor.transform.position.y-1, cursor.transform.position.z), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
         }
     }
 
