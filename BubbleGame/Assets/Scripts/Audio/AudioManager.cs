@@ -7,6 +7,8 @@ public class AudioManager : MonoBehaviour
 
     public float percentage = 1f;
     public static AudioManager instance;
+
+    string[] popsfx = { "Pop1", "Pop2", "Pop3", "Pop4" };
     void Awake()
     {
         if (instance==null)
@@ -27,6 +29,17 @@ public class AudioManager : MonoBehaviour
             s.source.clip = s.clip;
             s.source.loop = s.loop;
         }
+    }
+
+    public void PlayBomba()
+    {
+        Play("Bomba");
+    }
+
+    public void PlayPop()
+    {
+        int temp = Random.Range(0, 4);
+        Play(popsfx[temp]);
     }
 
     public void Play(string name)
