@@ -48,7 +48,10 @@ public class GameManager : MonoBehaviour
     {
         if (pearlsColliding == 2)
         {
-            FindFirstObjectByType<AudioManager>().PlayPop();
+            if (FindFirstObjectByType<AudioManager>() != null)
+            {
+                FindFirstObjectByType<AudioManager>().PlayPop();
+            }
             Instantiate(pearl, pos, Quaternion.identity);
             pearlsColliding = 0;
         }
@@ -74,7 +77,10 @@ public class GameManager : MonoBehaviour
     }
     public void Bomba()
     {
-        FindFirstObjectByType<AudioManager>().PlayBomba();
+        if (FindFirstObjectByType<AudioManager>() != null)
+        {
+            FindFirstObjectByType<AudioManager>().PlayBomba();
+        }
     }
 
     public void ReloadScene()
