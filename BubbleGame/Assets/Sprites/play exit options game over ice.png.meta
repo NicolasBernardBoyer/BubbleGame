@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: b3486d04cff9c5b4c8313970c4b0a68b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1435041527908465665
+    second: play exit options game over ice_0
+  - first:
+      213: 4700718482068226602
+    second: play exit options game over ice_1
+  - first:
+      213: -633207930229998364
+    second: play exit options game over ice_2
+  - first:
+      213: 516572259870198628
+    second: play exit options game over ice_3
+  - first:
+      213: 698466768132569559
+    second: play exit options game over ice_4
+  - first:
+      213: -8057073746269921147
+    second: play exit options game over ice_5
+  - first:
+      213: 5232744383673276383
+    second: play exit options game over ice_6
+  - first:
+      213: -5381987659723076391
+    second: play exit options game over ice_7
+  - first:
+      213: -5489479849810493545
+    second: play exit options game over ice_8
+  - first:
+      213: -4257682942090454142
+    second: play exit options game over ice_9
+  - first:
+      213: -8540903674848131212
+    second: play exit options game over ice_10
+  - first:
+      213: 5916820399200914155
+    second: play exit options game over ice_11
+  - first:
+      213: 5234398007199291613
+    second: play exit options game over ice_12
+  - first:
+      213: 6422268654357743535
+    second: play exit options game over ice_13
+  - first:
+      213: 7129277400678910988
+    second: play exit options game over ice_14
+  - first:
+      213: 7958813898813223048
+    second: play exit options game over ice_15
+  - first:
+      213: 359245820186003484
+    second: play exit options game over ice_16
+  - first:
+      213: 1393531397831080609
+    second: play exit options game over ice_17
+  - first:
+      213: 5652635023634282078
+    second: play exit options game over ice_18
+  - first:
+      213: -5860445410993389077
+    second: play exit options game over ice_19
+  - first:
+      213: -1968755620140612044
+    second: play exit options game over ice_20
+  - first:
+      213: -492263881360383236
+    second: play exit options game over ice_21
+  - first:
+      213: 1788572137895522929
+    second: play exit options game over ice_22
+  - first:
+      213: -7238719916927103539
+    second: play exit options game over ice_23
+  - first:
+      213: 1985928577729468475
+    second: play exit options game over ice_24
+  - first:
+      213: 5558988379679146827
+    second: play exit options game over ice_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: play exit options game over ice_11
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 323
+        width: 405
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c76ea9f45f25441b3579b0ec920a90
+      internalID: -762651055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play exit options game over ice_12
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 330
+        width: 411
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a070732af1393543a7edfd891c50c15
+      internalID: -390064561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play exit options game over ice_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 122
+        width: 793
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9e8df329885214aadfa3bf8e3d0200
+      internalID: -1470780938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play exit options game over ice_0
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 943
+        width: 277
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a0ba15ab6c08b47ba44d1e9c1e3cc3
+      internalID: 1056144313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play exit options game over ice_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 650
+        width: 1023
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e79829cbe0cac4a812e1be9261e8b4
+      internalID: -957301054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dda56b3373dfc59499dae0bff7ca2fdf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      play exit options game over ice_0: 1056144313
+      play exit options game over ice_1: -957301054
+      play exit options game over ice_11: -762651055
+      play exit options game over ice_12: -390064561
+      play exit options game over ice_13: -1470780938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

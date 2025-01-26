@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7935140584001718413}
   - component: {fileID: 1374743278306237937}
   - component: {fileID: 5991473361284306028}
+  - component: {fileID: 2988058864960725146}
   m_Layer: 0
   m_Name: basicPearl
   m_TagString: evo1
@@ -168,3 +169,25 @@ MonoBehaviour:
   next: {fileID: 7193103277946540154, guid: 0363e4d6d1aaa014ab6facac370569ac, type: 3}
   isColliding: 0
   pointsWorth: 100
+--- !u!95 &2988058864960725146
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472114941412812946}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b62ec34cddf190f4da224a767a1b72ad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
