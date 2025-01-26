@@ -167,3 +167,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next: {fileID: 0}
   isColliding: 0
+  pointsWorth: 51200

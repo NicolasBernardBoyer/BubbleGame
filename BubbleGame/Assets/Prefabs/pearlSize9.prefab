@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next: {fileID: 887299318914807455, guid: 2de458dc5ecd4ed4c8b19c04228e95af, type: 3}
   isColliding: 0
+  pointsWorth: 25600
 --- !u!60 &9126512487560353432
 PolygonCollider2D:
   m_ObjectHideFlags: 0

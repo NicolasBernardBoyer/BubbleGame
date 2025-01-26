@@ -167,3 +167,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next: {fileID: 4069499807726576885, guid: 6b302e69bb9631943a52ecd12d57c923, type: 3}
   isColliding: 0
+  pointsWorth: 800

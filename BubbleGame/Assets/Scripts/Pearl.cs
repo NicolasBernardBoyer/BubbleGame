@@ -5,6 +5,7 @@ public class Pearl : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject next;
     public bool isColliding = false;
+    public int pointsWorth;
     int direction = 0;
     float speed = 2.0f;
     bool hasDropped = false;
@@ -40,5 +41,9 @@ public class Pearl : MonoBehaviour
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }
+    }
+    private void OnDestroy()
+    {
+        FindFirstObjectByType<GameManager>().totalScore += pointsWorth;
     }
 }

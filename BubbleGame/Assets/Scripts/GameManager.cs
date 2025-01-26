@@ -5,7 +5,11 @@ public class GameManager : MonoBehaviour
     public int pearlsColliding;
     public GameObject cursor;
     public GameObject iceCube;
+    public Canvas UI;
     public float iceDelay = 45.0f;
+    public int totalScore = 0;
+
+    [SerializeField] TMPtext scoreText = 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

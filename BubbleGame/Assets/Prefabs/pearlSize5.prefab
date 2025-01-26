@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next: {fileID: 763038837071166103, guid: 5ab72deb7397975409b7a44e1da81011, type: 3}
   isColliding: 0
+  pointsWorth: 1600
 --- !u!61 &7480646755311653586
 BoxCollider2D:
   m_ObjectHideFlags: 0
