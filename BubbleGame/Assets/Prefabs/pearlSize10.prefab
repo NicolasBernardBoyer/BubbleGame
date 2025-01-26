@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6691690905344150076}
   - component: {fileID: 2811634209743570433}
   - component: {fileID: 8628124373505745990}
+  - component: {fileID: 291023530653132389}
   m_Layer: 0
   m_Name: pearlSize10
   m_TagString: evo10
@@ -168,3 +169,25 @@ MonoBehaviour:
   next: {fileID: 0}
   isColliding: 0
   pointsWorth: 51200
+--- !u!95 &291023530653132389
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887299318914807455}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 93a376ff8bcfc1a419b5cab78769eb49, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

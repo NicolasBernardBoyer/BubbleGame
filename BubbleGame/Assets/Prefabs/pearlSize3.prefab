@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3845819420995299640}
   - component: {fileID: 8429657764941611419}
   - component: {fileID: 6945171803719808893}
+  - component: {fileID: 5051926911042330098}
   m_Layer: 0
   m_Name: pearlSize3
   m_TagString: evo3
@@ -251,3 +252,25 @@ PolygonCollider2D:
       - {x: 0.049999997, y: -0.81}
       - {x: 0.089999996, y: -0.815}
   m_UseDelaunayMesh: 0
+--- !u!95 &5051926911042330098
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746986313994198361}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 564ddb2b8f6b4f54591c14e83bd9f33b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
