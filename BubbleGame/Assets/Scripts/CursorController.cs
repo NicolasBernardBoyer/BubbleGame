@@ -41,6 +41,7 @@ public class CursorController : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && placeDelay <= 0)
         {
             currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            FindFirstObjectByType<GameManager>().moveCount += 1;
             holdingPearl = false;
             placeDelay = 1.0f;
         }
