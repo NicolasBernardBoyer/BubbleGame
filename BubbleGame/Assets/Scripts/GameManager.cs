@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
 {
     public int pearlsColliding;
     public GameObject cursor;
+    public float iceDelay = 30.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +24,14 @@ public class GameManager : MonoBehaviour
         {
             Instantiate(pearl, pos, Quaternion.identity);
             pearlsColliding= 0;
+        }
+    }
+
+    private void IceTimer()
+    {
+        if (iceDelay > 0)
+        {
+            iceDelay -= Time.deltaTime;
         }
     }
 }

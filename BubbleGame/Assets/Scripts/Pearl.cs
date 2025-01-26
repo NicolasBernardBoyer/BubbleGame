@@ -20,14 +20,14 @@ public class Pearl : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (CompareTag(collision.gameObject.tag) && isColliding == false){
-            Destroy(collision.gameObject);
             if (next != null)
             {
                 FindFirstObjectByType<GameManager>().pearlsColliding += 1;
-                FindFirstObjectByType<GameManager>().CreatePearl(next, transform.position);
+                FindFirstObjectByType<GameManager>().CreatePearl(next, (transform.position + collision.transform.position)/2);
             }
             isColliding = true;
             Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }
