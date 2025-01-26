@@ -213,6 +213,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1109,7 +1135,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      silhouette_0: 8368959632400809171
+      silhouette_1: 36442125132627828
+      silhouette_10: 5459774488510143314
+      silhouette_11: 4228124461195758371
+      silhouette_12: -748658003590502257
+      silhouette_13: 2132810075913877149
+      silhouette_14: 3374140041016982646
+      silhouette_15: -5612594077369911807
+      silhouette_16: 5881073258732288255
+      silhouette_17: 7365326991866095130
+      silhouette_18: 8313487067455195386
+      silhouette_19: -2299147369957207946
+      silhouette_2: -3379901748147225787
+      silhouette_20: -5049070783718717029
+      silhouette_21: 3903513045382683917
+      silhouette_22: 220846707139934992
+      silhouette_23: -348744357516579236
+      silhouette_24: 7869303758613896453
+      silhouette_25: -6987596858872284225
+      silhouette_26: 8458513393749099439
+      silhouette_27: 270578658643372506
+      silhouette_28: 2657350902288779272
+      silhouette_29: 4153753257356148204
+      silhouette_3: 6436006704361838657
+      silhouette_30: -7050483702350617454
+      silhouette_31: -4111645200118012698
+      silhouette_32: -8026975571465942135
+      silhouette_33: -2691016135724060208
+      silhouette_34: -8533244636557839422
+      silhouette_35: -2394360697408653889
+      silhouette_36: 5124348986433129
+      silhouette_37: 8888473972535750989
+      silhouette_38: -758424896960300496
+      silhouette_39: 3748817642418123445
+      silhouette_4: 218022716503579462
+      silhouette_5: -858291877650448511
+      silhouette_6: 9065589269756433578
+      silhouette_7: -8774619047979207520
+      silhouette_8: 5210377845921158672
+      silhouette_9: 3141770919347454442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
