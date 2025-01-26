@@ -129,20 +129,64 @@ TextureImporter:
       name: ChalkBoardV2_0
       rect:
         serializedVersion: 2
-        x: 409
-        y: 95
-        width: 1195
-        height: 953
+        x: 504
+        y: 139
+        width: 344
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8c131b396703522a0800000000000000
-      internalID: -6762945979584794168
+      spriteID: fe8c5389fc466bc458db66595800ae38
+      internalID: -2073824608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChalkBoardV2_1
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 161
+        width: 261
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188c683cff15d1748a9f417222baa1dd
+      internalID: 1040628824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChalkBoardV2_2
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 383
+        width: 223
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fc2bb645ff097429e7b9201cd6a6c3
+      internalID: 1736058916
       vertices: []
       indices: 
       edges: []
@@ -151,7 +195,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b6c259261d8bf3f48bb523293429ef99
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +205,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< Updated upstream
       ChalkBoardV2_0: -6762945979584794168
+=======
+      ChalkBoardV2_0: -2073824608
+      ChalkBoardV2_1: 1040628824
+      ChalkBoardV2_2: 1736058916
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
