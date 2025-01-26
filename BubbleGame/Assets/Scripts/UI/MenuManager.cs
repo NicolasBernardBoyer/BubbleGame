@@ -14,6 +14,9 @@ public class MenuManager : MonoBehaviour
     [SerializeField]
     public Animator board;
 
+    [SerializeField]
+    public Animator[] fruits;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,13 +34,18 @@ public class MenuManager : MonoBehaviour
         water.SetTrigger("FillScreen");
         wavemovement.SetTrigger("GoWave");
         //Go fruits
+        foreach (Animator a in fruits)
+        {
+            a.SetTrigger("Up");
+        }
         StartCoroutine(TransitionWaiter());
     }
 
     IEnumerator TransitionWaiter()
     {
         yield return new WaitForSeconds(2.5F);
-
+        Debug.Log("Scene change");
+        SceneManager.LoadScene(1);
     }
 
     public void OptionButton()
