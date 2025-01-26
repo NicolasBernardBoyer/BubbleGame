@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9a4c3344ced6084ba9214d0b417b137
+guid: cfd71c25520d26d4ba462083b40fd8b0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -96,32 +96,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -129,10 +103,10 @@ TextureImporter:
       name: ChalkBoardV2_0
       rect:
         serializedVersion: 2
-        x: 504
-        y: 139
-        width: 344
-        height: 216
+        x: 545
+        y: 373
+        width: 213
+        height: 298
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8c5389fc466bc458db66595800ae38
-      internalID: -2073824608
+      spriteID: ce43320ed40f4b94f83f4a4b74fe3424
+      internalID: -571606003
       vertices: []
       indices: 
       edges: []
@@ -151,10 +125,10 @@ TextureImporter:
       name: ChalkBoardV2_1
       rect:
         serializedVersion: 2
-        x: 1255
-        y: 161
-        width: 261
-        height: 151
+        x: 532
+        y: 142
+        width: 311
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188c683cff15d1748a9f417222baa1dd
-      internalID: 1040628824
+      spriteID: 883f63b372695844999838c8a9e6b34e
+      internalID: -547444408
       vertices: []
       indices: 
       edges: []
@@ -173,10 +147,10 @@ TextureImporter:
       name: ChalkBoardV2_2
       rect:
         serializedVersion: 2
-        x: 541
-        y: 383
-        width: 223
-        height: 272
+        x: 1245
+        y: 165
+        width: 280
+        height: 155
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,8 +159,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fc2bb645ff097429e7b9201cd6a6c3
-      internalID: 1736058916
+      spriteID: 24108df387a506448bf7afb7056e7001
+      internalID: -2032720054
       vertices: []
       indices: 
       edges: []
@@ -195,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b6c259261d8bf3f48bb523293429ef99
+    spriteID: 5e8398927d2748646a779c97be20943b
     internalID: 0
     vertices: []
     indices: 
@@ -205,19 +179,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      ChalkBoardV2_0: -6762945979584794168
-=======
-      ChalkBoardV2_0: -2073824608
-      ChalkBoardV2_1: 1040628824
-      ChalkBoardV2_2: 1736058916
->>>>>>> Stashed changes
-=======
-      ChalkBoardV2_0: -2073824608
-      ChalkBoardV2_1: 1040628824
-      ChalkBoardV2_2: 1736058916
->>>>>>> Stashed changes
+      ChalkBoardV2_0: -571606003
+      ChalkBoardV2_1: -547444408
+      ChalkBoardV2_2: -2032720054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
