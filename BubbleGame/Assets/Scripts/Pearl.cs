@@ -31,7 +31,8 @@ public class Pearl : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         hasDropped = true;
-        if (CompareTag(collision.gameObject.tag) && isColliding == false){
+        if (CompareTag(collision.gameObject.tag) && isColliding == false && GetComponent<Rigidbody2D>().bodyType != RigidbodyType2D.Kinematic)
+        {
             if (next != null)
             {
                 FindFirstObjectByType<GameManager>().pearlsColliding += 1;
