@@ -30,6 +30,14 @@ public class MenuManager : MonoBehaviour
         FindFirstObjectByType<AudioManager>().Play("Water");
         water.SetTrigger("FillScreen");
         wavemovement.SetTrigger("GoWave");
+        //Go fruits
+        StartCoroutine(TransitionWaiter());
+    }
+
+    IEnumerator TransitionWaiter()
+    {
+        yield return new WaitForSeconds(2.5F);
+
     }
 
     public void OptionButton()
