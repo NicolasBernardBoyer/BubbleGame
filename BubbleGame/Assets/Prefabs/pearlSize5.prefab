@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 714404938426317167}
   - component: {fileID: 8463252156039089471}
   - component: {fileID: 7480646755311653586}
+  - component: {fileID: 1475940489989766297}
   m_Layer: 0
   m_Name: pearlSize5
   m_TagString: evo5
@@ -178,3 +179,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.9930369, y: 1.38}
   m_EdgeRadius: 0
+--- !u!95 &1475940489989766297
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4069499807726576885}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4688583264a4bfe4284919a38dd2747b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
