@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
             createIce();
             iceDelay = 45.0f;
         }
+        timerText.text = iceDelay.ToString("F0");
+        scoreText.text = totalScore.ToString();
     }
 
     //check for specifically two objects colliding, if so instantiate a new one

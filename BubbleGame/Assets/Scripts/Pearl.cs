@@ -38,12 +38,9 @@ public class Pearl : MonoBehaviour
                 FindFirstObjectByType<GameManager>().CreatePearl(next, (transform.position + collision.transform.position)/2);
             }
             isColliding = true;
+            FindFirstObjectByType<GameManager>().totalScore += pointsWorth;
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }
-    }
-    private void OnDestroy()
-    {
-        FindFirstObjectByType<GameManager>().totalScore += pointsWorth;
     }
 }
