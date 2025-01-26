@@ -5,20 +5,31 @@ public class Pearl : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject next;
     public bool isColliding = false;
+    int direction = 0;
+    float speed = 2.0f;
+    bool hasDropped = false;
 
     void Start()
     {
-        
+        direction = Random.Range(0, 2);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //rotate the object once its fallen
+        if (direction == 0 && hasDropped)
+        {
+            transform.Rotate(0, 0, 6.0f * speed * Time.deltaTime);
+        } else if (direction == 1 && hasDropped)
+        {
+            transform.Rotate(0, 0, -6.0f * speed * Time.deltaTime);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        hasDropped = true;
         if (CompareTag(collision.gameObject.tag) && isColliding == false){
             if (next != null)
             {

@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
     public int pearlsColliding;
     public GameObject cursor;
     public GameObject iceCube;
-    public float iceDelay = 30.0f;
+    public float iceDelay = 45.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         if (iceDelay <= 0)
         {
             createIce();
-            iceDelay = 30.0f;
+            iceDelay = 45.0f;
         }
     }
 

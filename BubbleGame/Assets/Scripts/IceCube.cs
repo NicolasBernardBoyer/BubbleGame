@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class IceCube : MonoBehaviour
 {
-    public int movesLeft = 10;
+    public int movesLeft = 4;
 
     // Update is called once per frame
     void Update()
