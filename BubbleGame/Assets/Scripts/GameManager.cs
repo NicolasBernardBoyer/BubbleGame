@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
         if (pearlsColliding == 2)
         {
             Instantiate(pearl, pos, Quaternion.identity);
-            pearlsColliding= 0;
+            pearlsColliding = 0;
         }
     }
 
@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < 10; i++)
         {
             Instantiate(iceCube, new Vector3(Random.Range(-2.9f, 3.0f),
-            cursor.transform.position.y-2.0f, cursor.transform.position.z), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
+            cursor.transform.position.y-2.0f, 100.0f), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
         }
     }
 

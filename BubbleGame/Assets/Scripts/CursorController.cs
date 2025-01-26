@@ -17,7 +17,7 @@ public class CursorController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        currentPearl = Instantiate(pearl1, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
+        currentPearl = Instantiate(pearl1, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100.0f), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
         currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
     }
 
@@ -33,11 +33,11 @@ public class CursorController : MonoBehaviour
             mousePos.z = Camera.main.nearClipPlane;
             Vector3 camPos = Camera.main.ScreenToWorldPoint(mousePos);
             camPos.x = Mathf.Clamp(camPos.x, -2.5f, 2.5f);
-            transform.position = new Vector3(camPos.x, transform.position.y, camPos.z);
+            transform.position = new Vector3(camPos.x, transform.position.y, transform.position.z);
 
             if (holdingPearl)
             {
-                currentPearl.transform.position = transform.position;
+                currentPearl.transform.position = new Vector3(transform.position.x, transform.position.y, 90.0f);
             }
 
             //Allow the player to place a pearl only if the delay between placing is over
