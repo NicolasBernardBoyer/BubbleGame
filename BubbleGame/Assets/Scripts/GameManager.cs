@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -47,6 +48,7 @@ public class GameManager : MonoBehaviour
     {
         if (pearlsColliding == 2)
         {
+            FindFirstObjectByType<AudioManager>().PlayPop();
             Instantiate(pearl, pos, Quaternion.identity);
             pearlsColliding = 0;
         }
@@ -72,6 +74,16 @@ public class GameManager : MonoBehaviour
     }
     public void Bomba()
     {
+        FindFirstObjectByType<AudioManager>().PlayBomba();
+    }
 
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
