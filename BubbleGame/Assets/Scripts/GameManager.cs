@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,8 @@ public class GameManager : MonoBehaviour
     public float iceDelay = 45.0f;
     public int totalScore = 0;
 
-    [SerializeField] TMPtext scoreText = 
+    [SerializeField] TMP_Text scoreText;
+    [SerializeField] TMP_Text timerText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
