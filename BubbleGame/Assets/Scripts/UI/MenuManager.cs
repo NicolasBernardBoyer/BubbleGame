@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField]
-    Animator water;
+    public Animator water;
 
     [SerializeField]
-    Animator wavemovement;
+    public Animator wavemovement;
+
+    [SerializeField]
+    public Animator board;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,7 +28,20 @@ public class MenuManager : MonoBehaviour
     public void PlayButton()
     {
         FindFirstObjectByType<AudioManager>().Play("Water");
-        water.SetTrigger("");
+        water.SetTrigger("FillScreen");
+        wavemovement.SetTrigger("GoWave");
+    }
+
+    public void OptionButton()
+    {
+        FindFirstObjectByType<AudioManager>().Play("BoardSlide");
+        board.SetTrigger("Drop");
+    }
+
+    public void CloseButton()
+    {
+        FindFirstObjectByType<AudioManager>().Play("BoardSlide");
+        board.SetTrigger("GoUp");
     }
 
     public void QuitGame()
