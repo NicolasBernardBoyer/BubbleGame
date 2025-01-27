@@ -19,6 +19,7 @@ public class CursorController : MonoBehaviour
     {
         currentPearl = Instantiate(pearl1, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100.0f), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
         currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+        currentPearl.GetComponent<Collider2D>().enabled = false;
     }
 
     // Update is called once per frame
@@ -44,6 +45,7 @@ public class CursorController : MonoBehaviour
             if (Input.GetButtonDown("Fire1") && placeDelay <= 0)
             {
                 currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                currentPearl.GetComponent<Collider2D>().enabled = true;
                 //increase move count only if ice is present on the board
                 IceCube[] iceCubes = FindObjectsByType<IceCube>(FindObjectsSortMode.None);
                 foreach (IceCube cube in iceCubes)
@@ -76,6 +78,7 @@ public class CursorController : MonoBehaviour
                 //create a new pearl and reset the timer
                 currentPearl = Instantiate(pearlToUse, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
                 currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+                currentPearl.GetComponent<Collider2D>().enabled = false;
                 holdingPearl = true;
             }
         }
