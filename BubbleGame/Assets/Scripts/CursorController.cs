@@ -2,6 +2,7 @@ using UnityEngine;
 using static UnityEngine.ParticleSystem;
 using UnityEngine.Rendering;
 using System.ComponentModel.Design.Serialization;
+using UnityEngine.UI;
 
 public class CursorController : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class CursorController : MonoBehaviour
     public GameObject pearl4;
     bool holdingPearl = true;
     public GameObject currentPearl;
+    public GameObject pearlToUse;
+    public GameObject nextIndicator;
     public float placeDelay = 0.0f;
 
 
@@ -20,6 +23,23 @@ public class CursorController : MonoBehaviour
         currentPearl = Instantiate(pearl1, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100.0f), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
         currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
         currentPearl.GetComponent<Collider2D>().enabled = false;
+        int pearlNum = RandomizePearl();
+        switch (pearlNum)
+        {
+            case 1:
+                pearlToUse = pearl1;
+                break;
+            case 2:
+                pearlToUse = pearl2;
+                break;
+            case 3:
+                pearlToUse = pearl3;
+                break;
+            case 4:
+                pearlToUse = pearl4;
+                break;
+        }
+        nextIndicator.GetComponent<Image>().sprite = pearlToUse.GetComponent<SpriteRenderer>().sprite;
     }
 
     // Update is called once per frame
@@ -58,8 +78,11 @@ public class CursorController : MonoBehaviour
 
             if (placeDelay <= 0 && holdingPearl == false)
             {
+                //create a new pearl and reset the timer
+                currentPearl = Instantiate(pearlToUse, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
+                currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+                currentPearl.GetComponent<Collider2D>().enabled = false;
                 int pearlNum = RandomizePearl();
-                GameObject pearlToUse = pearl1;
                 switch (pearlNum)
                 {
                     case 1:
@@ -75,10 +98,7 @@ public class CursorController : MonoBehaviour
                         pearlToUse = pearl4;
                         break;
                 }
-                //create a new pearl and reset the timer
-                currentPearl = Instantiate(pearlToUse, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
-                currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
-                currentPearl.GetComponent<Collider2D>().enabled = false;
+                nextIndicator.GetComponent<Image>().sprite = pearlToUse.GetComponent<SpriteRenderer>().sprite;
                 holdingPearl = true;
             }
         }
