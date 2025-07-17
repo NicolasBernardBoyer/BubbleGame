@@ -6,10 +6,7 @@ using UnityEngine.UI;
 
 public class CursorController : MonoBehaviour
 {
-    public GameObject pearl1;
-    public GameObject pearl2;
-    public GameObject pearl3;
-    public GameObject pearl4;
+    public GameObject[] pearls;
     bool holdingPearl = true;
     public GameObject currentPearl;
     public GameObject pearlToUse;
@@ -20,26 +17,13 @@ public class CursorController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        currentPearl = Instantiate(pearl1, new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100.0f), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
+        currentPearl = Instantiate(pearls[0], new Vector3(transform.position.x + Random.Range(-0.01f, 0.01f), transform.position.y, 100.0f), Quaternion.Euler(new Vector3(0, 0, Random.Range(0, 360))));
         currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
         currentPearl.GetComponent<Collider2D>().enabled = false;
         int pearlNum = RandomizePearl();
-        switch (pearlNum)
-        {
-            case 1:
-                pearlToUse = pearl1;
-                break;
-            case 2:
-                pearlToUse = pearl2;
-                break;
-            case 3:
-                pearlToUse = pearl3;
-                break;
-            case 4:
-                pearlToUse = pearl4;
-                break;
-        }
-        nextIndicator.GetComponent<Image>().sprite = pearlToUse.GetComponent<SpriteRenderer>().sprite;
+
+        pearlToUse = pearls[pearlNum];
+        nextIndicator.GetComponent<Image>().sprite = pearls[pearlNum].GetComponent<SpriteRenderer>().sprite;
     }
 
     // Update is called once per frame
@@ -83,21 +67,8 @@ public class CursorController : MonoBehaviour
                 currentPearl.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
                 currentPearl.GetComponent<Collider2D>().enabled = false;
                 int pearlNum = RandomizePearl();
-                switch (pearlNum)
-                {
-                    case 1:
-                        pearlToUse = pearl1;
-                        break;
-                    case 2:
-                        pearlToUse = pearl2;
-                        break;
-                    case 3:
-                        pearlToUse = pearl3;
-                        break;
-                    case 4:
-                        pearlToUse = pearl4;
-                        break;
-                }
+
+                pearlToUse = pearls[pearlNum];
                 nextIndicator.GetComponent<Image>().sprite = pearlToUse.GetComponent<SpriteRenderer>().sprite;
                 holdingPearl = true;
             }
@@ -114,6 +85,6 @@ public class CursorController : MonoBehaviour
 
     public int RandomizePearl()
     {
-        return Random.Range(1, 5);
+        return Random.Range(0, 4);
     }
 }

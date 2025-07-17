@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject cursor;
     public GameObject iceCube;
     public GameObject loseScreen;
+    public GameObject winScreen;
     public float iceDelay = 45.0f;
     public int totalScore = 0;
 
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] TMP_Text scoreText;
     [SerializeField] TMP_Text timerText;
+    [SerializeField] int scoreToWin;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,6 +32,7 @@ public class GameManager : MonoBehaviour
         if (!lose)
         {
             IceTimer();
+            WinCondition();
         } else
         {
             loseScreen.SetActive(true);
@@ -41,6 +44,14 @@ public class GameManager : MonoBehaviour
         }
         timerText.text = iceDelay.ToString("F0");
         scoreText.text = totalScore.ToString();
+    }
+
+    public void WinCondition()
+    {
+        if (totalScore >= scoreToWin)
+        {
+            winScreen.SetActive(true);
+        }
     }
 
     //check for specifically two objects colliding, if so instantiate a new one
